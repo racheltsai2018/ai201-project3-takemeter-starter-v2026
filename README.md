@@ -54,33 +54,111 @@
      The decision rule is worth a point on its own and it's the thing most
      people leave out. Every taxonomy has a hardest boundary. Name yours. -->
 
-### `label_one`
+### `Personal Narrative`
 
-**Definition:**
+**Definition:** Posts about personal stories, past memories, or personal experience, the focus of the story will mention what the person feels and experienced.
 
-**Example 1:**
->
+**Example 1:** Is the album really dead?
+> Like actually. I've spent the last two years making what I think is my life's greatest work, only to realise the world in which I live values this craft less and less. I mean I'm guilty of it too, listening to records just isn't what it used to be, but I try. Yet here we all are making them as though nothing has changed. How depressing! I don't mean to be dramatic, I know the fire will always burn, but it flickers now in the winds of time.
 
-**Example 2:**
->
+**Example 2:** Kind folks of reddit, what do you think of Streetlight Manifesto?
+> The first track i heard was around the time i quit weed for good. It's also the first artist that made me like brass instruments.
+I love Toh Kays songwriting yet i tend to forget about them ever so often. I feel my main problem is that the lyrics are often way to fast to sing along but they are so bloody good and interesting compared to other 3rd wave ska bands like Less Than Jake or Mad Caddys. Kinda feel like they are so underraded. It's not really Ska nor is it Skapunk. They are kinda unique and have such a bloody good brass section.
+And now roast me :)
 
-### `label_two`
+### `Deep Analysis`
 
-**Definition:**
+**Definition:** Posts that focus heavily on music production, historical evolution of artist or music.
 
-**Example 1:**
->
+**Example 1:**The long instrumental outro on “People Make the World Go Round” might be the real heart of the song
+> The long version of “People Make the World Go Round” has a whole second half, and I think it’s the best part
 
-**Example 2:**
->
+https://youtu.be/2owZXPyeilc?si=pq2Q5CoSjFxLEqN-
+
+Most people probably know “People Make the World Go Round” from the single, which is around 3:30.
+
+That version is already great. Thom Bell’s arrangement, Linda Creed’s lyrics, Russell Thompkins Jr. singing in that ridiculous falsetto.
+
+But the album version on The Stylistics’ first record is over six minutes long, and right around the point where the single fades out, it just keeps going.
+
+And honestly, that’s the part I like the most.
+
+The vocals slowly disappear and the whole thing opens up. Bass, drums, congas, all those strange Bell percussion sounds, then guitar and flute drifting in and out.
+
+It doesn’t really feel like it’s trying to get anywhere anymore. It just sits in the groove.
+
+That part hits me more physically than the first half. It’s hard to explain without sounding slightly ridiculous, but it feels like the song starts breathing differently.
+
+The lyrics are actually pretty bleak. Strikes, garbage piling up, pollution, Wall Street losing money. The whole world is dysfunctional.
+
+Then the words disappear and the music just keeps going.
+
+To me it almost feels like the song is saying: yeah, the world is a mess, but it keeps turning anyway.
+
+That’s obviously just my interpretation, but once I started hearing it like that I couldn’t really unhear it.
+
+I also found something interesting about the rhythm.
+
+I assumed the long instrumental part felt more relaxed because it probably settled into a simple 4/4 groove. Apparently not. The ending vamp has been analysed as alternating between 4/4 and 5/4.
+
+Which is kind of funny, because it feels more relaxed even though the meter is actually less regular.
+
+Maybe that extra beat is part of why it feels so loose, like the music is constantly hanging around a little longer than you expect.
+
+The song also seems to have really appealed to jazz and soul-jazz musicians. Milt Jackson did an eight-minute version, Cleveland Eaton covered it, O’Donel Levy did a great guitar version, and it kept resurfacing later in hip hop and sample culture.
+
+I don’t want to claim all those musicians were specifically obsessed with the long Stylistics outro, because there’s no way to know that. But it does feel like there was something in the composition that musicians wanted to stretch out and live inside.
+
+Does the long outro change the meaning of the song for you, or does it just feel like an extended groove?
+
+And for anyone here who understands the meter better than I do, why does that 4/4 and 5/4 vamp feel so relaxed when the rhythm is actually becoming less regular?
+
+If you only know the short version, let the album version keep running past the point where the single would have faded out.
+
+That’s where the song really starts for me.
+
+**Example 2:** What new technology will create new genres in the next 10 years?
+> The home DAW made it so anyone could produce a decent enough sounding record in their bedroom. Indie, folk, hip-hop, ambient, and of course EDM all evolved to survive in this new landscape?
+
+What technology will revolutionize music production?
+
+Will we see electronic remixes of machine learning compositions?
+
+Will telepathic midi control become a staple of EDM?
+
+### `Philosophical Discussion`
+
+**Definition:** Posts about broad culture, or artistic questions about music.
+
+**Example 1:**Why did major American bands like the Grateful Dead, Dave Matthews Band, Tom Petty and the Heartbreakers, Journey and Van Halen fail to break through in Europe?
+> Van Halen could sell out stadiums in the US, yet in Europe they had to open for Bon Jovi. That would never happen in the States.
+
+DMB could easily sell out the biggest arena in my country (Portugal), but I doubt they have much of a fanbase in the rest of Europe. My dad is a huge fan of 70s rock, and he tells me Van Halen and Journey were never particularly big over here. And FUNNILY ENOUGH, he'd never even heard of Tom Petty...
+
+**Example 2:** Why didn't people hate trap in the 2010s as much as they hated disco in the 70s?
+> Trap music was essentially as dominant in the 2010s as disco was in the 70s. Yet people didn't walk around chanting "TRAP MUSIC SUCKS". There was no "trap music demolition night" because of its massive popularity. Yes, disco was huge in its time... but so was trap music. What was with the weird ass hatred disco inspired back in the 70s where people felt the need to destroy it and making it a personality trait?
+
+Was the last time open, public hatred of popular music was socially acceptable the Justin Bieber hate of the early 2010s?
 
 ### The hardest boundary
 
-**Which two labels:**
+**Which two labels:** Deep Analysis and Philosophical Discussion posts
+
+**The post:** Is the musical bridge an overused function in pop songwriting?
+> Just a thought that popped into my head. I guess it's cultural how I never really noticed how much bridges are used in traditional song structures in the West.
+
+I understand their function, I think. They provide a nice contrast from the verse and chorus, and the key change generally resolves nicely back into the original key. You can contrast this to songs where there is no bridge, but the second to last chorus is in a different key.
+
+I won't argue that putting a bridge in every song is too formulaic because pop music in general is formulaic, just as most catchy and easy listening music is. However I'm wondering if it hampers the goal of a pop song. It doesn't really add anything new that's catchy, and it doesn't add more to the song than if one of the choruses was in a different key.
+
+Of course there are plenty of songs where the bridge is fantastic and is almost like a second chorus. But many times this isn't the case.
+
+For example I just heard "This Love" by Maroon 5 on the radio. I really like that song and I think it's every definition of what a good pop song should be. But the bridge just feels forced, you know? Like the producers/songwriter is like "oh yeah we need a bridge" and throw something in.
+
+I guess what I'm getting at is that too many bridges feel like they only exist because that's what's expected in a usual song. I think this hurts a song more than it helps
 
 **The decision rule I used every time:**
-<!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
-     if the tone is heated." -->
+If the post's primary focus is on analyzing the instruments, chord progression, key changes, then the post is for Deep Analysis. If it mainly focuses on song trends, industry habits without a detailed breakdown of the musical mechanics, the post will be categorized as Philosophical Discussion.
 
 
 
@@ -91,7 +169,7 @@
 <!-- Where you collected from, how you labelled, your counts, and three hard
      cases. -->
 
-**Where the posts came from:**
+**Where the posts came from:** The post came from reddit subpost called LetsTalkMusic. Here is the link: https://www.reddit.com/r/LetsTalkMusic/
 
 **How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
 Say so plainly — the disclosure is required, not penalised. -->
