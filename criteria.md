@@ -51,61 +51,40 @@ whether you hit them:
 
 ---
 
-## 1.
+## 1. The model must achieve an overall accuracy of at least 0.7.
 
-<!-- Your criterion. It must name a number. -->
-
-
-
-**Why this target:**
+**Why this target:** Since the dataset uses three distinct labels, an accuracy of 70% would ensure that the model is capturing meaningful signals instead of guessing randomly. 
 
 
 
 ---
 
-## 2.
-
-<!-- Your criterion. -->
-
-
-
-**Why this target:**
+## 2. Every label needs to achieve a recall of at least 0.6 on the dataset.
+**Why this target:** This ensures that the model successfully capture more than half of the true instances for each category without missing the other labels. 
 
 
 
 ---
 
-## 3.
+## 3. No single label in the dataset should exceed 60% of the total example count.
 
-<!-- Your criterion. -->
-
-
-
-**Why this target:**
+**Why this target:** Despite the project instructions allow up to 70%, keeping the distribution of a single label under 60% ensures that the dataset is not too heavily imbalanced. 
 
 
 
 ---
 
-## 4.
+## 4. When labeling the 20 posts in the dataset, the model must agree with the manual labels on at least 80% of the posts.
 
-<!-- Your criterion. -->
-
-
-
-**Why this target:**
+**Why this target:** To ensure the interpreted meaning for each label matches, what the model interprets, 80% of the 20 manual labeled post should match. 
 
 
 
 ---
 
-## 5.
+## 5. The difference in accuracy between training split and validaiton split must not exceed 0.15.
 
-<!-- Your criterion. -->
-
-
-
-**Why this target:**
+**Why this target:** If the gap between training and validation is greater than 15%, then it may indicate that the model is overfitting to the dataset rather than generalizing. This criteria check whether the model is overfitting.
 
 
 
