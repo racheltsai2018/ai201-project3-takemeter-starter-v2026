@@ -178,9 +178,9 @@ Say so plainly — the disclosure is required, not penalised. -->
 
 | Label | Count | Share |
 |---|---|---|
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Philosophical Discussion | 108 | 54% |
+| Personal Narrative | 48 | 24% |
+| Deep Analysis | 44 | 22% |
 | **Total** |  | 100% |
 
 **Three hard cases**
@@ -189,25 +189,29 @@ Say so plainly — the disclosure is required, not penalised. -->
      been, and what you chose. These are worth more than the easy 190. -->
 
 **1.**
-> *The post:*
+> *The post:* Is the 21st century defined by genres that never go mainstream but impact pop music anyway? My daughter was listening to ""Say So"" by Doja Cat on YouTube. And I asked her to replay it because something sounded eerily familiar—as if I heard it before. Turns out, it sounds remarkably similar to the future funk song ""Fiona Coyne"" by Skylar Spence. If you're unaware, future funk is a genre that originated in the 2010s. It's basically a mix of disco and vaporwave. It has its following, but never cracked the mainstream. But hold on... ""Fiona Coyne"" is inspired by ""Love Talkin' (Honey It's You)"" by Tatsuro Yamashita, one of the heavyweights of city pop. City pop is what's known as a retronym. That is, a label we give to music when a retrospective canon gets formed, requiring recontextualization. Yacht rock is another example of a retronym. In Japan, where city pop originates from, city pop is an obscure genre even though city pop songs themselves are popular. That's because it was simply mainstream pop in Japan. Now don't get me wrong. ""City pop"" as a term existed in Japan during the 80s. But this wasn't a genre with a defined musical structure. It was more a marketing term to sell aspiration, much like how we in the West hear terms like ""contemporary"" and ""sophisti-pop"". Because of this, most Japanese people didn't recognize city pop as an identifiable thing . Fast forward to the 21st century. Westerners started hearing Japanese music from the 80s. They needed context. So they re-purposed a Japanese marketing term to define a corpus, a body of work that identified Japanese music with broad similarities that seemed to have an associated scene. The city pop canon was never big in the West. Even now, it's only known amongst music nerds. But its effect on modern mainstream music is huge . Here's examples: - ""Out of Time"" by The Weeknd samples Tomoko Aran's ""Midnight Pretenders"" - ""GONE, GONE / THANK YOU"" by Tyler, the Creator interpolates Tatsuro Yamashita's ""Fragile"" - ""We Ride"" by Brave Girls was a Top 5 K-pop hit, but it was blatantly marketed as city pop upon its release What's wild? City pop is not the only obscure genre to impact the mainstream but never hit the mainstream. Witch house, phonk, and vaporwave all had a big impact. But none of the artists who originated these genres have ever become house house names. I think this is one of the defining characteristics of 21st-century music. A genre can remain underground while its sounds, production techniques, and aesthetics become completely mainstream. We're in a time where the mainstream raids from subculture before subculture can ever challenge it. Is this why we no longer see musical revolutions like jazz, rock, punk, hip hop, and grunge? Has the mainstream become so good at absorbing underground music that new genres can influence it without ever displacing or fundamentally transforming it?
+
 >
-> *Could have been:*
+> *Could have been:* Philosophical Discussion
 >
-> *I chose, because:*
+> *I chose, because:* I choose Deep Analysis because the author of the post analyzes the two songs in detail including the genre, and analyzes the history of different genres. 
 
 **2.**
-> *The post:*
+> *The post:*Is the album really dead? Like actually. I've spent the last two years making what I think is my life's greatest work, only to realise the world in which I live values this craft less and less. I mean I'm guilty of it too, listening to records just isn't what it used to be, but I try. Yet here we all are making them as though nothing has changed. How depressing! I don't mean to be dramatic, I know the fire will always burn, but it flickers now in the winds of time.
+
 >
-> *Could have been:*
+> *Could have been:* Philosophical Discussion
 >
-> *I chose, because:*
+> *I chose, because:* I choose personal narrative because the author focuses more on what his experience is when making an album. 
 
 **3.**
-> *The post:*
+> *The post:*How did Snoop Dogg reach success so quickly with The Chronic and Doggystyle and can another artist duplicate what Snoop did in ‘92 and ‘93 by being the only artists in history to rise to superstardom that quickly? Snoop Dogg is the only artists in history to reach superstar status immediately as a solo artists. Only artists to reach success right away like Snoop was possibly The Beatles but even their debut album Please Please Me didn’t put up the #s like The Chronic and Doggystyle did. Gun N Roses debut album Appetite for Destruction is the highest selling debut album of all time but their debut album didn’t do well initially and it was a long process for Gun N Roses to be successful cause they were viewed too controversial with their music promoting too much sex and drugs. The band’s manager had to plead for MTV to play their music after several attempts of MTV of refusing to play their music and Guns end up getting good luck with MTV playing Welcome to the Jungle on a 5:00 AM Sunday morning which Guns eventually garnered success. 50 Cent Get Rich or Die Tryin surpass Doggystyle as the fastest selling debut album of all time with 50 Get Rich selling 872,000 the 1st week surpassing Snoop’s previous record of 806,000 the 1st week but at the same time 50 didn’t get success as an artists right away. 50 debut album was supposed to be Power of the Dollar and 50 had a small local buzz in NY with songs like How to Rob which wasn’t a hit song but garnered some success. But Power of the Dollar didn’t get release and was shelved by Columbia Records after 50 got shot 9 times and record labels felt 50 was too dangerous and labels didnt wanna to associate with him during this time after he got shot. It was a long process for 50 to get popular where he released several mixtapes after getting shot which got the attention from Dr Dre and Eminem to sign 50 on their label. But Snoop is the only artists I seen gain pop level of success right away with songs like Nothing but A G Thang, What’s my Name and Gin N Juice. What made fans gravitate towards Snoop right away? Is Snoop Dogg that more talented than other artists or did he have the best luck being at the right place right time or was Snoop able to finagle his way in the music industry in the easiest way possible as an industry plant? I am curious how Snoop became such a big artist right away without have any real previous bodies of work before The Chronic and Doggystyle. Can r/LetsTalkMusic tell me how Snoop Dogg was able to garner success so quickly as an artist?
+
+
 >
-> *Could have been:*
+> *Could have been:* Deep Analysis
 >
-> *I chose, because:*
+> *I chose, because:* In the post the history of the albums are mentioned but it did not analyze the information in depth, therefore the post is only philosophical discussion. 
 
 ---
 
