@@ -171,8 +171,7 @@ If the post's primary focus is on analyzing the instruments, chord progression, 
 
 **Where the posts came from:** The post came from reddit subpost called LetsTalkMusic. Here is the link: https://www.reddit.com/r/LetsTalkMusic/
 
-**How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
-Say so plainly — the disclosure is required, not penalised. -->
+**How I labelled them:** I labeled the first 20 posts, and with AI's help I labeled the rest of the 180 posts. The posts are split into 3 labels, Philsophical Discussion, Personal Narrative, and Deep Analysis. 
 
 **Counts per label:**
 
@@ -217,17 +216,59 @@ Say so plainly — the disclosure is required, not penalised. -->
 
 ## The Training Run
 
-<!-- Your starting model, your settings, and anything you changed and why. -->
+**Test runs**
+1. with default epoch, learning_rate, batch_size, and max_length
 
-**Base model:**
+| Epoch | Training Loss | Validation Loss | Accuracy | F1 Macro |
+|---|---|---|---|---|
+| 1 | No log | 1.006 | 0.548 | 0.236 |
+| 2 | 1.039 | 0.988 | 0.548 | 0.236 |
+| 3 | 0.985 | 0.984 | 0.548 | 0.236 |
 
-**Settings:** <!-- epochs, learning rate, batch size, seed -->
+2. 
+Epoch = 10, Learning_rate = 5e-5, batch_size = 8, and max_length = 128
 
-**Anything I changed from the defaults, and why:**
+| Epoch | Training Loss | Validation Loss | Accuracy | F1 Macro |
+|---|---|---|---|---|
+| 1 | 1.0376 | 0.9668 | 0.548 | 0.236 |
+| 2 | 0.7918 | 0.8366 | 0.613 | 0.494 |
+| 3 | 0.3293 | 0.8144 | 0.581 | 0.563 |
+| 4 | 0.0952 | 1.0036 | 0.613 | 0.594 |
+| 5 | 0.0274 | 1.2153 | 0.613 | 0.559 |
+| 6 | 0.0112 | 1.2806 | 0.645 | 0.606 |
+| 7 | 0.0076 | 1.3712 | 0.645 | 0.579 |
+| 8 | 0.0057 | 1.4270 | 0.645 | 0.579 |
+| 9 | 0.0050 | 1.4606 | 0.645 | 0.579 |
+| 10 | 0.0051 | 1.4685 | 0.645 | 0.579 |
 
-**Split sizes:** <!-- train / val / test, and per-label counts in the test
-split. If a label had fewer than about 8 in test, say so — it explains a lot
-of next unit's variance. -->
+3.
+Epoch = 6, Learning_rate = 5e-5, batch_size = 8, and max_length = 256
+
+| Epoch | Training Loss | Validation Loss | Accuracy | F1 Macro |
+|---|---|---|---|---|
+| 1 | 1.0346 | 0.9573 | 0.548 | 0.236 |
+| 2 | 0.7844 | 0.7724 | 0.677 | 0.538 |
+| 3 | 0.4054 | 0.6875 | 0.677 | 0.579 |
+| 4 | 0.2211 | 0.7962 | 0.645 | 0.521 |
+| 5 | 0.0927 | 0.9866 | 0.677 | 0.538 |
+| 6 | 0.0592 | 0.9759 | 0.645 | 0.521 |
+
+
+**Base model:** "distilbert-base-uncased"
+
+**Settings:** 6 epochs, learning rate: 5e-5, batch size: 8, max length: 256, seed 42
+
+**Anything I changed from the defaults, and why:** Increase the number of epoch to see if the results would increase with more epochs but the model overfit at epoch 10. The learning rate got changed to 5e-5, and batch size decreased to 8 from 16. After testing the model with greater learning rate and smaller batch size, the model's accuracy improved. 
+
+**Split sizes:** The dataset has a total of 200 posts. The split into 139 post into train dataset, 31 post in validation, and 30 in test set.
+
+| Label | Train | Validation | Test |
+|---|---|---|---|
+| Philosophical Discussion | 75 post | 17 post | 16 post |
+| Personal Narrative | 34 post | 7 post | 7 post |
+| Deep Analysis | 30 post | 7 post | 7 post |
+
+Personal Narrative and Deep Analysis have only have 7 post in the testing set, which is less than 8 examples.
 
 
 
