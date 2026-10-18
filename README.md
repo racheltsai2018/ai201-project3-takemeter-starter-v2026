@@ -38,9 +38,7 @@
 <!-- ═══════════════════════ UNIT 5 — THE BUILD ═══════════════════════ -->
 
 ## What This Does
-
-<!-- Your community, and what your classifier sorts posts into. Three or four
-     sentences. -->
+TakeMeter reads post from the subreddit (r/LetsTalkMusic). The subreddit includes several post about music. This program classifies each post by giving it a label from "Personal Narrative", "Philosophical Discussion", and "Deep Analysis". This program uses the DistilBERT model trained with 200 posts collected from the Lets Talk Music subreddit that is labelled. 
 
 
 
@@ -285,15 +283,15 @@ Personal Narrative and Deep Analysis have only have 7 post in the testing set, w
 
 **Moment 1**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* I asked the AI to help me fetch posts from the Lets Talk Music subreddit 10 post at a time in "", which is the format that we wanted.
+- *What came back:* A few times while fetching the 10 posts, AI fetched duplicated post that has already been added to the labels.csv file.
+- *What I changed:* I would instruct AI to fetch the next 10 posts start from "..." post (the first post of the 10 posts). To ensure, the post fetched are correct, I would check each post one by one and ensure that it is matching with the posts on reddit.  
 
 **Moment 2**
 
-- *What I asked for:*
-- *What came back:*
-- *What I changed:*
+- *What I asked for:* I asked AI to help label the 180 post that has not been labelled.
+- *What came back:* The rest of the 180 post have been labelled.
+- *What I changed:* Nothing was changed since I only asked AI to label the 180 posts. 
 
 **Pre-labelling disclosure:**
 
