@@ -307,20 +307,40 @@ Personal Narrative and Deep Analysis have only have 7 post in the testing set, w
 <!-- Both models on the same posts. `python baseline.py --trained results.json`
      prints this table for you. -->
 
+**Baseline model**
+| Measure | Baseline |
+|---|---|
+| Overall accuracy | 0.433 |
+| Macro F1 | 0.393 |
+| F1 — `Deep Analysis` | 0.250 |
+| F1 — `Personal Narrative` | 0.429 |
+| F1 — `Philosophical Discussion` | 0.500 |
+
+**Baseline vs. Trained model table**
 | Measure | Baseline | Trained | Difference |
 |---|---|---|---|
-| Overall accuracy |  |  |  |
-| Macro F1 |  |  |  |
-| F1 — `label_one` |  |  |  |
-| F1 — `label_two` |  |  |  |
+| Overall accuracy | 0.433 | 0.700 | +0.267 |
+| Macro F1 | 0.393 | 0.676 | +0.283 |
+| F1 — `Deep Analysis` | 0.250 | 0.500 | +0.250 |
+| F1 — `Personal Narrative` | 0.429 | 0.800 | +0.371 |
+| F1 — `Philosophical Discussion` | 0.500 | 0.727 | +0.227 |
+
+**Baseline vs. Trained model table without label_definitions.txt**
+| Measure | Baseline | Trained | Difference |
+|---|---|---|---|
+| Overall accuracy | 0.267 | 0.700 | +0.433 |
+| Macro F1 | 0.169 | 0.676 | +0.507 |
+| F1 — `Deep Analysis` | 0.000 | 0.500 | +0.500 |
+| F1 — `Personal Narrative` | 0.389 | 0.800 | +0.411 |
+| F1 — `Philosophical Discussion` | 0.118 | 0.727 | +0.610 |
 
 **What I predicted before I looked:**
-<!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
-     prediction made afterwards isn't one. -->
+The accuracy for the baseline model will be a lot lower than the trained model. The reason for this result is because the model has not been trained to label the post correctly so the model will most likely be guessing.
 
 **What the gap actually means:**
 <!-- If the baseline matched your trained model, your fine-tuning added
      nothing — and that is a real finding, not a failure. Say it plainly. -->
+The fine-tuned trained model actually learned the patterns and was able to recognize the post correctly. Therefore, the results of the fine-tuned model was able to improve over 0.2 for all categories.
 
 
 

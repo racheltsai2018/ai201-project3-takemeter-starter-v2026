@@ -5,6 +5,6 @@
 #
 # Delete the examples below and put yours in.
 
-analysis: makes an argument backed by a specific, checkable fact
-hot_take: a confident claim with no support offered
-reaction: an immediate response to something that just happened
+Philosophical Discussion: Posts about broad culture, or artistic questions about music.
+Deep Analysis: Posts that focus heavily on music production, historical evolution of artist or music.
+Personal Narrative: Posts about personal stories, past memories, or personal experience, the focus of the story will mention what the person feels and experienced.
