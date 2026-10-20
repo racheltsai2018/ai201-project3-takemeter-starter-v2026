@@ -364,18 +364,17 @@ The fine-tuned trained model actually learned the patterns and was able to recog
 <!-- ⚠️ TYPED AS A MARKDOWN TABLE. The notebook prints one ready to paste.
      An image of a matrix earns nothing. -->
 
-| true \ predicted |  |  |  |
+| true \ predicted | Philosophical Discussion | Personal Narrative | Deep Analysis |
 |---|---|---|---|
-| **** |  |  |  |
-| **** |  |  |  |
-| **** |  |  |  |
+| **Philosophical Discussion** | 12 | 2 | 2 |
+| **Personal Narrative** | 1 | 6 | 0 |
+| **Deep Analysis** | 4 | 0 | 3 |
 
 **My biggest off-diagonal number, and what it means:**
 <!-- Not "the model made mistakes" — WHICH boundary it didn't learn, and which
      direction. "7 real analysis posts were called hot_take and only 3 went the
      other way" is a direction, not just an error rate. -->
-
-
+The boundary the model was unable to learn is 4 real 'Deep Analysis' post were labeled 'Philosophical Discussion'. 2 real 'Philosophical Discussion' posts were labeled 'Deep Analysis'. Most frequently mistakes deep analysis posts for philosophical discussion.
 
 ---
 

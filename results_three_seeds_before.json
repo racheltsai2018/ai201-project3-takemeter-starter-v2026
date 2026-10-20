@@ -1,0 +1,164 @@
+[
+  {
+    "seed": 42,
+    "n_test": 30,
+    "accuracy": 0.7,
+    "f1_macro": 0.6757575757575758,
+    "per_label": {
+      "Philosophical Discussion": {
+        "precision": 0.7058823529411765,
+        "recall": 0.75,
+        "f1": 0.7272727272727273,
+        "support": 16
+      },
+      "Personal Narrative": {
+        "precision": 0.75,
+        "recall": 0.8571428571428571,
+        "f1": 0.8,
+        "support": 7
+      },
+      "Deep Analysis": {
+        "precision": 0.6,
+        "recall": 0.42857142857142855,
+        "f1": 0.5,
+        "support": 7
+      }
+    },
+    "confusion": {
+      "Philosophical Discussion": {
+        "Philosophical Discussion": 12,
+        "Personal Narrative": 2,
+        "Deep Analysis": 2
+      },
+      "Personal Narrative": {
+        "Philosophical Discussion": 1,
+        "Personal Narrative": 6,
+        "Deep Analysis": 0
+      },
+      "Deep Analysis": {
+        "Philosophical Discussion": 4,
+        "Personal Narrative": 0,
+        "Deep Analysis": 3
+      }
+    },
+    "confidence": {
+      "mean_when_right": 0.9515387415885925,
+      "mean_when_wrong": 0.7214303016662598,
+      "accuracy_most_confident_third": 0.9,
+      "accuracy_least_confident_third": 0.3,
+      "n_per_third": 10
+    },
+    "device": "cpu",
+    "device_name": "CPU",
+    "torch_version": "2.14.1+cpu",
+    "max_length": 256
+  },
+  {
+    "seed": 7,
+    "n_test": 30,
+    "accuracy": 0.7333333333333333,
+    "f1_macro": 0.6874003189792663,
+    "per_label": {
+      "Philosophical Discussion": {
+        "precision": 0.6818181818181818,
+        "recall": 0.9375,
+        "f1": 0.7894736842105263,
+        "support": 16
+      },
+      "Personal Narrative": {
+        "precision": 0.75,
+        "recall": 0.42857142857142855,
+        "f1": 0.5454545454545454,
+        "support": 7
+      },
+      "Deep Analysis": {
+        "precision": 1.0,
+        "recall": 0.5714285714285714,
+        "f1": 0.7272727272727273,
+        "support": 7
+      }
+    },
+    "confusion": {
+      "Philosophical Discussion": {
+        "Philosophical Discussion": 15,
+        "Personal Narrative": 1,
+        "Deep Analysis": 0
+      },
+      "Personal Narrative": {
+        "Philosophical Discussion": 4,
+        "Personal Narrative": 3,
+        "Deep Analysis": 0
+      },
+      "Deep Analysis": {
+        "Philosophical Discussion": 3,
+        "Personal Narrative": 0,
+        "Deep Analysis": 4
+      }
+    },
+    "confidence": {
+      "mean_when_right": 0.8509158492088318,
+      "mean_when_wrong": 0.7931277751922607,
+      "accuracy_most_confident_third": 1.0,
+      "accuracy_least_confident_third": 0.7,
+      "n_per_third": 10
+    },
+    "device": "cpu",
+    "device_name": "CPU",
+    "torch_version": "2.14.1+cpu",
+    "max_length": 256
+  },
+  {
+    "seed": 2024,
+    "n_test": 30,
+    "accuracy": 0.8333333333333334,
+    "f1_macro": 0.8272727272727273,
+    "per_label": {
+      "Philosophical Discussion": {
+        "precision": 0.8235294117647058,
+        "recall": 0.875,
+        "f1": 0.8484848484848485,
+        "support": 16
+      },
+      "Personal Narrative": {
+        "precision": 0.75,
+        "recall": 0.8571428571428571,
+        "f1": 0.8,
+        "support": 7
+      },
+      "Deep Analysis": {
+        "precision": 1.0,
+        "recall": 0.7142857142857143,
+        "f1": 0.8333333333333334,
+        "support": 7
+      }
+    },
+    "confusion": {
+      "Philosophical Discussion": {
+        "Philosophical Discussion": 14,
+        "Personal Narrative": 2,
+        "Deep Analysis": 0
+      },
+      "Personal Narrative": {
+        "Philosophical Discussion": 1,
+        "Personal Narrative": 6,
+        "Deep Analysis": 0
+      },
+      "Deep Analysis": {
+        "Philosophical Discussion": 2,
+        "Personal Narrative": 0,
+        "Deep Analysis": 5
+      }
+    },
+    "confidence": {
+      "mean_when_right": 0.868489682674408,
+      "mean_when_wrong": 0.762931227684021,
+      "accuracy_most_confident_third": 1.0,
+      "accuracy_least_confident_third": 0.7,
+      "n_per_third": 10
+    },
+    "device": "cpu",
+    "device_name": "CPU",
+    "torch_version": "2.14.1+cpu",
+    "max_length": 256
+  }
+]
