@@ -414,12 +414,12 @@ The boundary the model was unable to learn is 4 real 'Deep Analysis' post were l
      data/staff_taxonomy.md, not your own — so every argument below is made
      from those definitions and those decision rules. -->
 
-**Agreement rate:** ___ / 30 = ___%
+**Agreement rate:** 28 / 30 = 93%
 
-<!-- Nobody grades this number. A 60% who argues every disagreement from the
-     stated rules beats a 95% who wrote "staff was right" nine times. Several
-     of the 30 were chosen because they're genuinely ambiguous — you should be
-     winning some of these. -->
+| Post | Staff said | I said | My call, and why |
+|---|---|---|---|
+| The club championship scoring changed in 2019 from top-6 to top-10. S… | `analysis` | `hot_take` |  |
+| Went back through the club results going back to 2012. Every single y… | `analysis` | `hot_take` |  |
 
 **Disagreements**
 
@@ -437,26 +437,24 @@ The boundary the model was unable to learn is 4 real 'Deep Analysis' post were l
      what you did across your own 200. -->
 
 **1.**
-> *The post:*
+> *The post:* The club championship scoring changed in 2019 from top-6 to top-10. Since then our B team has finished above the A team twice. That's not depth improving, it's the scoring rewarding turnout.
 >
-> *Staff said / I said:*
+> *Staff said / I said:* analysis / hot_take
 >
-> *My call, and why:*
+> *My call, and why:* The staff is right. I am not familar with sports so I did not understand the statement throughly. My assumption was that the team dropped in rank and it does not seem related scoring rewarding turnout. That is why my assumption was hot_take. Now that I understood the post, the statistic which is points is calculated from top 10 players made sense when reading the conclusion where "it's the scoring rewarding turnout".
 >
-> *Which pile:*
+> *Which pile:* The pile a: the rule covered it and I applied it loosely.
 
 **2.**
-> *The post:*
+> *The post:* Went back through the club results going back to 2012. Every single year the number of people who enter the spring marathon and don't start it sits between 18 and 23 percent. It's not a bad-luck year, it's the base rate.
 >
-> *Staff said / I said:*
+> *Staff said / I said:* analysis / hot_take
 >
-> *My call, and why:*
+> *My call, and why:* The staff is right. Similarly to the 1st post, I did not understand the post throughly resulted in the host_take conclusion.  The staff's answer made sence if about 18 to 23 percent of runners drop out consistencly every year, then it is the base rate.
 >
-> *Which pile:*
+> *Which pile:*The pile a: the rule covered it and I applied it loosely.
 
-**What the pattern in my disagreements tells me:**
-
-
+**What the pattern in my disagreements tells me:** Both of my disagreements comes from a misunderstanding of unfamilar context, which caused me to misterpret the sentence. Resulting in misclassification of the post. In both cases, after fully understanding the post, the label for the post was easy to determine.
 
 ---
 
