@@ -353,11 +353,11 @@ The fine-tuned trained model actually learned the patterns and was able to recog
 
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. The model must achieve an overall accuracy of at least 0.7. |  ≥ 0.7 | 0.7 | 0.733 | 0.833 | MET |
+| 2. Every label needs to achieve a recall of at least 0.6 on the dataset. |  ≥ 0.6 | 0.679 | 0.646 | 0.815 | MET |
+| 3. No single label in the dataset should exceed 60% of the total example count. |  ≤ 0.6 (120 posts) | 108 posts | 48 posts | 44 posts | MET |
+| 4. When labeling the 20 posts in the dataset, the model must agree with the manual label on at least 80% of the posts. |  ≥ 0.8 | 0.75 | 0.95 | 0.95 | MISSED |
+| 5. The difference in accuracy between training split and validation split must not exceed 0.15.| ≤ 0.15  | 0.355 | 0.258 | 0.258 | MISSED |
 
 ### Confusion matrix
 
@@ -385,11 +385,11 @@ The boundary the model was unable to learn is 4 real 'Deep Analysis' post were l
 
 | # | Criterion | Target | Verdict | How I decided |
 |---|---|---|---|---|
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-| 4 |  |  |  |  |
-| 5 |  |  |  |  |
+| 1 |  The model must achieve an overall accuracy of at least 0.7. | ≥ 0.7 | MET | For all three seeds, the overall accuracy for each seed all achieve 0.7. |
+| 2 | Every label needs to achieve a recall of at least 0.6 on the dataset. | ≥ 0.6 | MET | For all three seeds, the recall for each seed all achieve 0.6. |
+| 3 | No single label in the dataset should exceed 60% of the total example count. | ≤ 0.6 (120 posts) | MET | For all three labels, they have less than 120 posts in the dataset. |
+| 4 | When labeling the 20 posts in the dataset, the model must agree with the manual label on at least 80% of the posts. | ≥ 0.8 | MISSED | When the seed = 42, the model only agree with the manual label on 75% of the posts, which is under 80%. |
+| 5 | The difference in accuracy between training split and validation split must not exceed 0.15. | ≤ 0.15 | MISSED | For all three seeds, the training split and validation split exceed 15%. |
 
 **Diagnoses**
 
@@ -401,6 +401,9 @@ The boundary the model was unable to learn is 4 real 'Deep Analysis' post were l
      ⚠️ Use your agreement report as evidence. It is the only instrument you
      have that can tell a LABELLING problem from a MODEL problem, and this
      section is graded on whether you used it that way. -->
+Criterion 4: There is too few manual labeled posts. A single mismatched post will change the result by 5%. The amount of posts that are mentioned in the criteria is 20 posts, therefore each agreement or disagreement would change the result by 5%.
+
+Criterion 5: The model is overfitting due to small dataset. As a result, the accuracy for training split are all 1.000 for all three seeds. The validation accuracy are 0.645 and 0.742 for the three seeds. Since the accuracy for training split are 100% to ensure that the difference must not exceed 15%, the validation needs to be higher than 85% to meet that criteria. 
 
 
 

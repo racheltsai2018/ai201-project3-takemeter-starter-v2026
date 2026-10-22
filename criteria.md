@@ -82,7 +82,7 @@ whether you hit them:
 
 ---
 
-## 5. The difference in accuracy between training split and validaiton split must not exceed 0.15.
+## 5. The difference in accuracy between training split and validation split must not exceed 0.15.
 
 **Why this target:** If the gap between training and validation is greater than 15%, then it may indicate that the model is overfitting to the dataset rather than generalizing. This criteria check whether the model is overfitting.
 
