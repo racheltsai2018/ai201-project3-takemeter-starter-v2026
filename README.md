@@ -463,24 +463,25 @@ Criterion 5: The model is overfitting due to small dataset. As a result, the acc
 
 ## The Improvement
 
-**What I changed:**
+**What I changed:** I added 30 examples to Deep Analysis label.
 
-**Which diagnosis pointed at it:**
+**Which diagnosis pointed at it:** The diagnosis for criteria 5 pointed at it, which says the model is overfitting due to small dataset. 
 
 ### Run Log — After
 
 | Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
 |---|---|---|---|---|---|
-| 1.  |  |  |  |  |  |
-| 2.  |  |  |  |  |  |
-| 3.  |  |  |  |  |  |
-| 4.  |  |  |  |  |  |
-| 5.  |  |  |  |  |  |
+| 1. The model must achieve an overall accuracy of at least 0.7. |  ≥ 0.7 | 0.771 | 0.771 | 0.800 | MET |
+| 2. Every label needs to achieve a recall of at least 0.6 on the dataset. |  ≥ 0.6 | 0.766 | 0.748 | 0.791 | MET |
+| 3. No single label in the dataset should exceed 60% of the total example count. |  ≤ 0.6 (120 posts) | 108 posts | 48 posts | 74 posts | MET |
+| 4. When labeling the 20 posts in the dataset, the model must agree with the manual label on at least 80% of the posts. |  ≥ 0.8 | 0.75 | 0.95 | 0.9 | MISSED |
+| 5. The difference in accuracy between training split and validation split must not exceed 0.15.| ≤ 0.15  | 0.451 | 0.279 | 0.137 | MISSED |
 
 **Did it help, and how do I know:**
 
 <!-- If it didn't, say so. Relabelling that didn't help is a genuinely
      interesting result and earns full credit. -->
+In some cases, the changes helped, but in other it didn't. If we look at the training accuracy it did help a little for all 3 seed the train accuracy was 100%. After adding 30 deep analysis posts, the train accuracy changed to 99.4%. It is still overfitting but the train accuracy is no longer 100%. The difference in accuracy between training split and validation split worsen for both seed 42 and seed 7. However, seed 2024 achieved the 5th criterion, which is an improvement. The accuracy and F1 for seed 42 and seed 7 both increased, but for seed 2024, it dropped slightly. If we look at the overall results, the change have improved the results.
 
 
 

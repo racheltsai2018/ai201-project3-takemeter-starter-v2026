@@ -1,0 +1,182 @@
+[
+  {
+    "seed": 42,
+    "n_test": 35,
+    "accuracy": 0.7714285714285715,
+    "f1_macro": 0.7721817824119613,
+    "per_label": {
+      "Philosophical Discussion": {
+        "precision": 0.7647058823529411,
+        "recall": 0.7647058823529411,
+        "f1": 0.7647058823529411,
+        "support": 17
+      },
+      "Personal Narrative": {
+        "precision": 0.8333333333333334,
+        "recall": 0.7142857142857143,
+        "f1": 0.7692307692307693,
+        "support": 7
+      },
+      "Deep Analysis": {
+        "precision": 0.75,
+        "recall": 0.8181818181818182,
+        "f1": 0.782608695652174,
+        "support": 11
+      }
+    },
+    "confusion": {
+      "Philosophical Discussion": {
+        "Philosophical Discussion": 13,
+        "Personal Narrative": 1,
+        "Deep Analysis": 3
+      },
+      "Personal Narrative": {
+        "Philosophical Discussion": 2,
+        "Personal Narrative": 5,
+        "Deep Analysis": 0
+      },
+      "Deep Analysis": {
+        "Philosophical Discussion": 2,
+        "Personal Narrative": 0,
+        "Deep Analysis": 9
+      }
+    },
+    "confidence": {
+      "mean_when_right": 0.9650947451591492,
+      "mean_when_wrong": 0.85121750831604,
+      "accuracy_most_confident_third": 1.0,
+      "accuracy_least_confident_third": 0.5454545454545454,
+      "n_per_third": 11
+    },
+    "manual_agreement": 0.75,
+    "manual_agreement_n": 20,
+    "manual_in_train": 9,
+    "train_accuracy": 0.99375,
+    "val_accuracy": 0.5428571428571428,
+    "train_val_gap": 0.4508928571428572,
+    "device": "cpu",
+    "device_name": "CPU",
+    "torch_version": "2.14.1+cpu",
+    "max_length": 256
+  },
+  {
+    "seed": 7,
+    "n_test": 35,
+    "accuracy": 0.7714285714285715,
+    "f1_macro": 0.7426282051282053,
+    "per_label": {
+      "Philosophical Discussion": {
+        "precision": 0.8666666666666667,
+        "recall": 0.7647058823529411,
+        "f1": 0.8125,
+        "support": 17
+      },
+      "Personal Narrative": {
+        "precision": 0.6666666666666666,
+        "recall": 0.5714285714285714,
+        "f1": 0.6153846153846154,
+        "support": 7
+      },
+      "Deep Analysis": {
+        "precision": 0.7142857142857143,
+        "recall": 0.9090909090909091,
+        "f1": 0.8,
+        "support": 11
+      }
+    },
+    "confusion": {
+      "Philosophical Discussion": {
+        "Philosophical Discussion": 13,
+        "Personal Narrative": 2,
+        "Deep Analysis": 2
+      },
+      "Personal Narrative": {
+        "Philosophical Discussion": 1,
+        "Personal Narrative": 4,
+        "Deep Analysis": 2
+      },
+      "Deep Analysis": {
+        "Philosophical Discussion": 1,
+        "Personal Narrative": 0,
+        "Deep Analysis": 10
+      }
+    },
+    "confidence": {
+      "mean_when_right": 0.8954788446426392,
+      "mean_when_wrong": 0.7977895736694336,
+      "accuracy_most_confident_third": 1.0,
+      "accuracy_least_confident_third": 0.6363636363636364,
+      "n_per_third": 11
+    },
+    "manual_agreement": 0.95,
+    "manual_agreement_n": 20,
+    "manual_in_train": 15,
+    "train_accuracy": 0.99375,
+    "val_accuracy": 0.7142857142857143,
+    "train_val_gap": 0.2794642857142857,
+    "device": "cpu",
+    "device_name": "CPU",
+    "torch_version": "2.14.1+cpu",
+    "max_length": 256
+  },
+  {
+    "seed": 2024,
+    "n_test": 35,
+    "accuracy": 0.8,
+    "f1_macro": 0.8015985910722753,
+    "per_label": {
+      "Philosophical Discussion": {
+        "precision": 0.75,
+        "recall": 0.8823529411764706,
+        "f1": 0.8108108108108109,
+        "support": 17
+      },
+      "Personal Narrative": {
+        "precision": 0.8571428571428571,
+        "recall": 0.8571428571428571,
+        "f1": 0.8571428571428571,
+        "support": 7
+      },
+      "Deep Analysis": {
+        "precision": 0.875,
+        "recall": 0.6363636363636364,
+        "f1": 0.7368421052631579,
+        "support": 11
+      }
+    },
+    "confusion": {
+      "Philosophical Discussion": {
+        "Philosophical Discussion": 15,
+        "Personal Narrative": 1,
+        "Deep Analysis": 1
+      },
+      "Personal Narrative": {
+        "Philosophical Discussion": 1,
+        "Personal Narrative": 6,
+        "Deep Analysis": 0
+      },
+      "Deep Analysis": {
+        "Philosophical Discussion": 4,
+        "Personal Narrative": 0,
+        "Deep Analysis": 7
+      }
+    },
+    "confidence": {
+      "mean_when_right": 0.8824924826622009,
+      "mean_when_wrong": 0.763063907623291,
+      "accuracy_most_confident_third": 0.9090909090909091,
+      "accuracy_least_confident_third": 0.5454545454545454,
+      "n_per_third": 11
+    },
+    "manual_agreement": 0.9,
+    "manual_agreement_n": 20,
+    "manual_in_train": 13,
+    "train_accuracy": 0.99375,
+    "val_accuracy": 0.8571428571428571,
+    "train_val_gap": 0.13660714285714293,
+    "device": "cpu",
+    "device_name": "CPU",
+    "torch_version": "2.14.1+cpu",
+    "max_length": 256
+  }
+]
