@@ -289,9 +289,9 @@ Personal Narrative and Deep Analysis have only have 7 post in the testing set, w
 
 **Moment 2**
 
-- *What I asked for:* I asked AI to help label the 180 post that has not been labelled.
-- *What came back:* The rest of the 180 post have been labelled.
-- *What I changed:* Nothing was changed since I only asked AI to label the 180 posts. 
+- *What I asked for:* In order to test criteria 4 & 5, I asked AI for help on the necessary changed on file takemeter.ipynb under 6. Three Seeds to print out the comparison of the 20 manual label vs. model label, train accuracy, validation accuracy, and the gap between train and validation accuracy.
+- *What came back:* Print statements are added to the cell under section 6 to print out the results retrieved from the model.
+- *What I changed:* Nothing was changed since the print statements work as intended.
 
 **Pre-labelling disclosure:**
 
@@ -490,12 +490,13 @@ In some cases, the changes helped, but in other it didn't. If we look at the tra
 ## What's Still Broken
 
 <!-- For each criterion still missed: what you'd do, and why you stopped. -->
-
+Criterion 4 & 5 are still broken. There was not enough time for me to fix criterion 4, which is by adding more manual labeled posts. I tried to fix criterion 5 by adding 30 deep analysis posts. By making that change, it did improve the results. However, 30 posts were not enough to completely fix the issue. There was not enough time to find & add more than 30 deep analysis post to the dataset. To completely fix criterion 5, it would be adding more post to both deep analysis and personal narrative, so there would be about the same number of posts for all three labels. In order to do that, more time would be required to collect the data.
 
 
 **The gap between what I meant my labels to capture and what the model
 learned:**
 <!-- Two sentences. Your confusion matrix is the evidence. -->
+I meant for the labels to capture different tones for philosophical discussion and deep analysis labels. For deep analysis there are more "professional" vocabulary used, or the post was intended to analyze the music. Philosophical discussion is on more general topics. However, the results showed that the model is having a hard time distinguish those two labels, therefore, confusing serveral posts.
 
 
 
