@@ -421,8 +421,8 @@ Criterion 5: The model is overfitting due to small dataset. As a result, the acc
 
 | Post | Staff said | I said | My call, and why |
 |---|---|---|---|
-| The club championship scoring changed in 2019 from top-6 to top-10. S… | `analysis` | `hot_take` |  |
-| Went back through the club results going back to 2012. Every single y… | `analysis` | `hot_take` |  |
+| The club championship scoring changed in 2019 from top-6 to top-10. S… | `analysis` | `hot_take` | My call was hot_take because I did not understand the sentence properly, and it seemed like the statistics does not affect the results. Analysis is the correct answer. |
+| Went back through the club results going back to 2012. Every single y… | `analysis` | `hot_take` | My call was hot_take because of a similar reason with above. Analysis is the correct answer.|
 
 **Disagreements**
 
